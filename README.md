@@ -1,12 +1,10 @@
-# Connect Elevenlabs Conversation AI Agent to Twilio for Inbound and Outbound Calls
+# Connect OpenMic Conversation AI Agent to Twilio for Inbound and Outbound Calls
 
 ![CleanShot 2024-12-11 at 22 52 50 1](https://github.com/user-attachments/assets/97108c31-0679-44e5-a7a9-cc7e640dcbf1)
 
 Watch the video tutorial here: https://youtu.be/_BxzbGh9uvk
 
 ## Overview
-
-ElevenLabs recently released their [**Conversational AI Agent**](https://elevenlabs.io/conversational-ai), a tool for building interactive voice conversations. 
 
 This repository provides the backend code to connect **Twilio** to your ElevenLabs Conversational AI Agent. With this setup, you can:
 

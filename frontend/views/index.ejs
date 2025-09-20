@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bot Dashboard</title>
+</head>
+<body>
+    <h1>Bot Dashboard</h1>
+    <% if (error) { %>
+        <p style="color:red"><%= error %></p>
+    <% } %>
+
+    <h2>Bots:</h2>
+    <ul>
+        <% bots.forEach(bot => { %>
+            <li><strong><%= bot.name %></strong> (ID: <%= bot.uid %>)</li>
+        <% }) %>
+    </ul>
+
+    <h2>Call Logs:</h2>
+    <ul>
+        <% logs.forEach(log => { %>
+            <li>ID: <%= log.id %> → <%= log.transcript %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>
