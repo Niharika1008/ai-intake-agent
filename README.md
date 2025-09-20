@@ -1,12 +1,10 @@
 # Connect OpenMic Conversation AI Agent to Twilio for Inbound and Outbound Calls
 
-![CleanShot 2024-12-11 at 22 52 50 1](https://github.com/user-attachments/assets/97108c31-0679-44e5-a7a9-cc7e640dcbf1)
-
 Watch the video tutorial here: https://youtu.be/_BxzbGh9uvk
 
 ## Overview
 
-This repository provides the backend code to connect **Twilio** to your ElevenLabs Conversational AI Agent. With this setup, you can:
+This repository provides the backend code to connect **Twilio** to your Conversational AI Agent. With this setup, you can:
 
 - Handle **inbound calls** from users.
 - Initiate **outbound calls** programmatically.
@@ -130,7 +128,6 @@ npm start
 
 Here are useful resources for setting up and understanding the project:
 
-- [ElevenLabs Conversational AI Agent Documentation](https://elevenlabs.io/conversational-ai)
 - [Settings for Twilio Integration](https://elevenlabs.io/docs/conversational-ai/guides/conversational-ai-twilio)
 - [Settings for Authenticated Requests](https://elevenlabs.io/docs/conversational-ai/customization/conversation-configuration)
 - Watch the tutorial video: https://youtu.be/_BxzbGh9uvk
@@ -138,7 +135,4 @@ Here are useful resources for setting up and understanding the project:
 ---
 
 Star ⭐ this repository if you find it helpful!
-
-Want to donate? https://bartslodyczka.gumroad.com/l/potvn
-
 
